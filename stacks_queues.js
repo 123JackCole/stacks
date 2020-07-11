@@ -8,8 +8,8 @@ class Stack {
         this.elements.push(data);
     }
 
-    pop(data) {
-        this.elements.pop(data);
+    pop() {
+        this.elements.length === 0 ? "Nothing is on the stack" : this.elements.pop();
     }
     
 }
